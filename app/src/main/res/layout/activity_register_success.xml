@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSuccess"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/btnBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Back to page Login"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/layOutParent3"
+        app:layout_constraintStart_toStartOf="@+id/layOutParent3"
+        app:layout_constraintTop_toBottomOf="@+id/layOutParent3" />
+
+    <LinearLayout
+        android:id="@+id/layOutParent2"
+        android:layout_width="376dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/layOutParent1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/layOutParent1"
+        app:layout_constraintTop_toBottomOf="@+id/layOutParent1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/layOutParent2"
+            app:layout_constraintStart_toStartOf="@+id/layOutParent2"
+            app:layout_constraintTop_toBottomOf="@+id/layOutParent2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="PassWord: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/showPassWord"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/input_bg"
+                android:paddingLeft="16dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="Register Successfull"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layOutParent1"
+        android:layout_width="376dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/layOutParent1"
+            app:layout_constraintStart_toStartOf="@+id/layOutParent1"
+            app:layout_constraintTop_toBottomOf="@+id/layOutParent1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="UserName: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/showUserName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/input_bg"
+                android:paddingLeft="16dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layOutParent3"
+        android:layout_width="376dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/layOutParent2"
+        app:layout_constraintStart_toStartOf="@+id/layOutParent2"
+        app:layout_constraintTop_toBottomOf="@+id/layOutParent2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/layOutParent3"
+            app:layout_constraintStart_toStartOf="@+id/layOutParent3"
+            app:layout_constraintTop_toBottomOf="@+id/layOutParent3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="UserName: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/showEmail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/input_bg"
+                android:paddingLeft="16dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="NguyenThanhPhat_22115053122328"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
